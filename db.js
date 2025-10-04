@@ -1,4 +1,4 @@
-import { Sequelize } from "sequelize";
+const Sequelize = require('sequelize')
 
 export default new Sequelize(
   process.env.DB_NAME, // Название БД
